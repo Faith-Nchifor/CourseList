@@ -5,8 +5,8 @@ import * as Contenful from 'contentful'
 import Course from './Course'
 import {Grid } from '@material-ui/core';
  
-const SPACE_ID ='yftjxtewy1sm';
-const ACCESS_TOKEN = 'fByzrfxPzWPq7re8_jnh6fr0ZoGt1aHZa5gmSdigBJs'; 
+const SPACE_ID ='...'; // use your space ID
+const ACCESS_TOKEN = '...'; // Use your access token from contentful
 
 let client = Contenful.createClient({
     space: SPACE_ID,
